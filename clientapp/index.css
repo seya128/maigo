@@ -1,0 +1,109 @@
+
+.id1 {
+	margin: 0px;
+	padding: 0px;
+    font-size: 40px;
+    color: blue;
+    opacity:  0;   
+}
+.id2 {
+	margin: 10px;
+	padding: 0px;
+    font-size: 40px;
+    color: red;
+    opacity:  0;   
+}
+
+.pos1 {
+	position: absolute;
+	top: 240px;
+    left: 70px;
+    animation-delay: 0s;
+    animation-duration: 2s;
+    animation-name: anim;
+}
+
+.pos2 {
+	position: absolute;
+	top: 200px;
+    left: 123px;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    animation-name: anim;
+}
+
+.pos3 {
+	position: absolute;
+	top: 160px;
+    left: 175px;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-name: anim;
+}
+
+.pos4 {
+	position: absolute;
+	top: 120px;
+    left: 235px;
+    animation-delay: 3s;
+    animation-duration: 2s;
+    animation-name: anim;
+}
+.pos4-2 {
+	position: absolute;
+	top: 359px;
+    left: 278px;
+    animation-delay: 3s;
+    animation-duration: 2s;
+    animation-name: anim;
+}
+.pos5 {
+	position: absolute;
+	top: 110px;
+    left: 245px;
+    animation-delay: 4s;
+    animation-duration: 2s;
+    animation-name: anim;
+    animation-iteration-count: infinite;
+}
+.pos5-2 {
+	position: absolute;
+	top: 398px;
+    left: 219px;
+    /* opacity: 0.8; */
+    animation-delay: 4s;
+    animation-duration: 2s;
+    animation-name: anim;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes anim {
+    from {
+      opacity: 0;
+    }
+    30% {
+        opacity: 0.8;
+    }
+    70% {
+        opacity: 0.8;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes anim {
+    from {
+      opacity: 0;
+    }
+    30% {
+        opacity: 0.8;
+    }
+    70% {
+        opacity: 0.8;
+    }
+    to {
+        opacity: 0;
+    }
+}
